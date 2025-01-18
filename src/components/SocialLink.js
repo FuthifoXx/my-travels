@@ -1,10 +1,11 @@
-const SocialLink = ({ itemClass, href, icon }) => {
+const SocialLink = () => {
   return (
     <li>
-      <a href={href} target='_blank' rel='noreferrer' className={itemClass}>
-        <i className={icon}></i>
-      </a>
+      <button className="btn" style={{ marginRight: '1rem' }}>
+        sign in
+      </button>
+      <button className="btn">sign up</button>
     </li>
-  )
-}
-export default SocialLink
+  );
+};
+export default SocialLink;
